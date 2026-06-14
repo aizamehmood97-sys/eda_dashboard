@@ -37,7 +37,7 @@ st.set_page_config(
 def load_data():
 
     df = pd.read_csv(
-        "data/Crimes_-_2001_to_Present_20260523.csv",
+        "Crimes_-_2001_to_Present_20260523.csv",
         low_memory=False
     )
 
